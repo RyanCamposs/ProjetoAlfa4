@@ -1,0 +1,47 @@
+body {
+    background-image: radial-gradient(#034159, #025951);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+   
+  
+}
+
+h1 {
+    color: #0CF25D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+p {
+    color:  #038C3E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px
+}
+
+input#botao {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    background-color: #025951;
+    height: 70px;
+    width: 300px;
+    color:#0CF25D;
+    
+}
+
+input#botao:hover {
+    width: 310px;
+    height: 75px;
+    background-color: #0CF25D;
+    color: #034159;
+}
+
+a {
+    background-color:#025951 ;
+    color:#0CF25D;
+    font-size: 30px;
+    text-decoration: none;
+}
