@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+body {
+    text-align: center;
+    background-color: #5F5C4C;
+}
+div#container {
+    border: 1px solid #ffffff;
+    width: 50%;
+    height: 900px;
+    background-color: #443D32;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 56px;
+    color: #606B68;
+}h2 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 46px;
+    color: #606B68;
+}
+
+p {
+    font-family: 'Macondo', cursive;
+    font-size: 30px;
+    color: #838898;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color:#606B68
+}
+
+a:hover {
+    background-color:#5F5C4C ; 
+    color: #838898;
+}
+
+
