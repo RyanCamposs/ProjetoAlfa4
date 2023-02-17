@@ -1,0 +1,106 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+   position: absolute;
+   top: 7px;
+}
+div#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Imagem de pesquisa */
+img#pesquisar {
+    width: 40px;  
+    position: absolute;
+    text-align: center;
+    height: 37px;
+    border: 1px solid black;
+   border-radius: 0px 10px 10px 0px;
+}
+/* Imagem logo */
+img#Logo {
+position: absolute;
+top: 0;
+}
+/* Display */
+div#display {
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    height: 720px;
+    width: 1280px;
+    border: 1px solid black;
+    background-color: black;
+}
+/* Input de barra de pesquisa */
+input#search {
+    width: 540px;
+    top:10px;
+    height: 35px;
+    border: 1px solid gray;
+    color: gray;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 45px 0px 0px 45px;
+}
+
+.teclado {
+    position: absolute;
+    left: 1218px;
+    height: 43px;
+    top: 8px;
+}
+h2 {
+    position: absolute;
+    top: 800px;
+    left: 100px;
+}
+
+.v1 {
+    width: 390px;
+    height: 200px;
+    position: absolute;
+    background-color: red;
+    left: 82%;
+    margin-top: 38px;
+}
+.v2 {
+    width: 390px;
+    height: 200px;
+    position: absolute;
+    background-color: black;
+    left: 82%;
+    margin-top: 271px;
+}
+
+.v3 {
+    width: 390px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    left: 82%;
+    margin-top: 506px;
+}
+.like {
+    width: 30px;
+    padding-left: 450px;
+    position: absolute;
+    text-align: center;
+}
+
+.unlike {
+    width: 30px;
+  
+    position: absolute;
+    left: 750px;
+    text-align: center;
+}
