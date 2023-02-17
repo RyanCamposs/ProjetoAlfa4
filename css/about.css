@@ -27,7 +27,7 @@ input#botao {
     text-align: center;
     margin: auto;
     background-color: #025951;
-    height: 70px;
+    height: 40px;
     width: 300px;
     color:#0CF25D;
     
@@ -35,7 +35,7 @@ input#botao {
 
 input#botao:hover {
     width: 310px;
-    height: 75px;
+    height: 45px;
     background-color: #0CF25D;
     color: #034159;
 }
